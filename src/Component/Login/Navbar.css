@@ -1,0 +1,22 @@
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+.navbar-width{
+    width: 100%;
+    height: 4rem;
+    background-color: blue;
+}
+.navbar-3{
+    width: 30%;
+    align-items: center;
+    padding: 1rem;
+}
+.navbar-2{
+    width: 50%;
+    padding: 1rem;
+}
+.navbar-1{
+    width: 20%;
+    padding: 1rem; 
+}

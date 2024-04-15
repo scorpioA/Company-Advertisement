@@ -1,0 +1,19 @@
+input{
+    margin-top: 0.2rem;
+    margin-left: 0rem;
+}
+.inputSection{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    padding: 0;
+}
+.inp{
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+    height: 1.5rem;
+    width: 15rem;
+
+}
+.lable{
+    font-weight: bold;
+}

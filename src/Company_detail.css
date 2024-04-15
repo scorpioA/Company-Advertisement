@@ -1,0 +1,193 @@
+.company_detail{
+  background-color: rgba(8, 8, 8, 0.76);
+}
+.banner-company {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    background-color: rgb(0, 0, 0);
+    height: 500px;
+  }
+  
+  .banner-text-company {
+    padding: 70px;
+    background-image: linear-gradient(to right, #ff0000, #ff00bf);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-top: 4rem;
+  }
+ 
+  .banner-title-company {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .banner-paragraph-company {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  .product-detail-share-icon{
+    padding: 1rem;
+}
+  .banner-btn-company {
+    background-color: transparent;
+    background-image: linear-gradient(to right, #ff0000, #ff00bf);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-color:rgb(240, 122, 12) ;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  .pp{
+    margin-left: 20px;
+    margin-right: 1rem;
+  }
+
+  
+
+  .image-banner-company{
+    margin-top: 2rem;
+    border-bottom-right-radius: 150px 150px;
+    border-top-left-radius: 150px 150px;
+    box-shadow: rgb(238, 238, 238) 0px 4px 12px;
+    width: 40rem;
+    padding: 4px;
+    height: 23rem;
+    object-fit: cover;
+  }
+  .banner-image {
+    width: 20rem;
+    margin-top: 4rem;
+    margin-left: 3rem;
+    height: 20rem;
+
+    object-fit: cover;
+  }
+  .img-hight{
+    height: 25rem;
+    width: 100%;
+    box-shadow: inset 0 0 0 2000px rgba(8, 0, 5, 0.616);
+
+
+}
+.img-abouts{
+    width: 100%;
+    height: 80%;
+   
+    border-bottom-right-radius: 150px 150px;
+    border-top-left-radius: 150px 150px;
+}
+.side-lables{
+    background-color: black;
+    color: white;
+}
+.color-goldens{
+    color:#FFC300; 
+}
+.color-whites{
+    color:  red;
+}
+.Mainpart-paddings{
+   padding-top:4rem;
+    border-radius: 1rem;
+    background-color: black;
+    margin: 5rem;
+    border-color:  rgb(255, 123, 0) 0px 5px 15px;
+    box-shadow:  rgb(255, 123, 0) 0px 5px 15px;
+}
+.happyclient{
+  display: flex;
+  flex-direction: row;
+  padding: 3rem;
+  padding-left: 8rem;
+}
+.k55k{
+margin-left: 2rem;
+}
+.k25k{
+  margin-left: 3rem;
+}
+.k115k{
+  margin-left: 4rem;
+}
+.color-h {
+  background-image: linear-gradient(to right, #ff0000, #ff00bf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.color-h:hover{
+  background-image: linear-gradient(to right, #d244df, #00ccff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.companycardflex{
+ 
+  display: flex;
+  flex-wrap: wrap;
+  background-color:transparent;
+  justify-content: space-between;
+  padding: 3rem;
+}
+.cardBoxContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 400px;
+  background-color:black;
+  border-radius: 30px;
+  box-shadow: rgb(230, 159, 8) 0px 4px 12px;
+  margin: 20px;
+  
+}
+
+.imagebox {
+  margin-top: 3px;
+padding: 0.5rem;
+ border-bottom-right-radius: 100px 100px;
+ border-top-right-radius: 100px 100px;
+ border-top-left-radius: 100px 100px;
+  
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.descriptionContainer {
+  width: 80%;
+  padding: 20px;
+}
+
+.descriptions {
+  font-size: 16px;
+  text-align: center;
+  background-image: linear-gradient(to right, #ffd903, #fad712);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;}
+
+.priceContainer {
+  width: 100%;
+  padding: 20px;
+}
+
+.price {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  margin: 2rem;
+}
+
+.ourproduct{
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  margin: .5rem;
+  background-image: linear-gradient(to right, #ff0000, #ff00bf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

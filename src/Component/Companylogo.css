@@ -1,0 +1,41 @@
+.companylogoimg{
+    width: 10rem;
+    height: 8rem;
+    margin-left: 5rem;
+    transition: transform 0.5s;
+   
+  
+}
+.companylogoimg:hover{
+    transform: scale(1.08);
+}
+
+.companylogoflex{
+    
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(15, 15, 15);
+  
+}
+.companylogo{
+  
+    margin: 4rem;
+   padding: 1rem;
+   box-shadow: rgb(248, 180, 33) 0px 2px 8px 0px;
+}
+.Loop {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+.companyour{
+padding: 2rem;
+color:#ffc400d5 ;
+   
+}
+.scr{
+    height: 320px;
+    overflow: scroll;
+}
+.scr::-webkit-scrollbar{
+    display: none;
+  }

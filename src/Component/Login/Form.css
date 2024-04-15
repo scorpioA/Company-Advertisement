@@ -1,0 +1,209 @@
+body{
+    /* background-image: url("https://cdn.wallpapersafari.com/30/5/GjFDfp.jpg");
+    width: 100vh;
+    height: 100vh;
+    box-shadow: inset 0 0 0 2000px rgba(8, 0, 5, 0.829); */
+}
+.login-page{
+     background-image: url("https://wallpapercave.com/wp/wp9764081.jpg");
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-bottom: 5rem;
+  
+   /* box-shadow: inset 0 0 0 2000px rgba(8, 0, 5, 0.829); */
+}
+.box{
+    width: 20rem;
+    
+    /* background-color: aqua; */
+    background-image: linear-gradient(to right,
+    rgb(163, 240, 221), 
+    rgb(105, 221, 202));
+    border-radius: 2rem;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    padding: 2%;
+    margin-left: 35rem;
+}
+
+.name{
+    margin-top: 1rem;
+    padding: 00.1rem;
+}
+
+.btn{
+  
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.button{
+
+    height: 2rem;
+    width: 4rem;
+    font-weight: bolder;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    background-color: rgba(5, 12, 12, 0.753);
+}
+form{
+    padding: 2%;
+}
+.h-3{
+    margin-left: 5rem;
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* .loginPage {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ2TBYclVBf8g3cjmq1JDDdOE07CM6IErUHQ&usqp=CAU");
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  } */
+  
+  .rightPage {
+    background-image: url("https://images.unsplash.com/photo-1529539795054-3c162aab037a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bG9naW58ZW58MHx8MHx8&w=1000&q=80");
+    background-size: cover;
+    background-position: center;
+    min-height: 70vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: color;
+  }
+  
+  .center-div {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    color: #000;
+    font-size: 26px;
+  }
+  
+  #inner-page .col-sm-6:nth-child(1) {
+    background: white;
+  }
+  
+  .center-div .btn.btn-info {
+    margin: 10px;
+    width: 40%;
+  }
+  .pdd{
+    padding-top: 2rem;
+  }
+  .center-div div {
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  #inner-page {
+    margin-top: 5%;
+    position: fixed;
+    z-index: 1;
+    top: 16%;
+    width: 70%;
+    box-shadow: 0px 0px 10px 1px #000;
+    left: 17%;
+  }
+  
+  .center-div input {
+    border: unset;
+    outline: unset;
+    background: unset;
+    border-bottom: 3px solid red;
+    margin-bottom: 12px;
+  }
+  
+  .center-div input.control-form::placeholder {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .center-div .btn.btn-danger {
+    position: unset !important;
+    top: unset !important;
+    right: unset !important;
+    padding: 6px 0 !important;
+    border-radius: 9px;
+    color: white;
+    width: 335px;
+    font-weight: bolder;
+    box-shadow: unset !important;
+    background: #d51212;
+  }
+  
+  .google,
+  .google:hover,
+  .google:active,
+  .google:visited {
+    outline: #b02a37;
+    border: #b02a37;
+    color: white;
+    background: #d31a1a;
+  }
+  
+  .fb,
+  .fb:hover,
+  .fb:active,
+  .fb:visited {
+    outline: #0b0389;
+    border: #0b0389;
+    color: white;
+    background-color: #0c0773;
+  }
+  .fb i {
+    padding-right: 13px;
+    font-size: 1.3rem;
+  }
+  
+  .imgBox {
+    height: 33%;
+    width: 61%;
+    position: absolute;
+    top: 30%;
+    left: 18%;
+  }
+  
+  .imgBox img {
+    height: 100%;
+    width: 100%;
+  }
+  
+  span.cusBtn {
+    position: absolute;
+    background: black;
+    color: white;
+    display: inline-block;
+    width: 45px;
+    left: 0;
+  }
+  
+  /* .gr-back {
+      background: #f0e9e959;
+  } */
+  
+  .bg-image {
+    /* The image used */
+    /* background-image: url("https://cdn0.weddingwire.com/article/1660/3_2/960/jpg/10661-hero-subscription-boxes-for-couples.jpeg"); */
+    min-width: 100vw;
+    height: 75vh !important;
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  

@@ -1,0 +1,78 @@
+footer {
+  padding: 40px 0;
+  min-height: 300px;
+  background-color: black;
+  background-image: url("https://p4.wallpaperbetter.com/wallpaper/159/328/872/chicago-night-lights-wallpaper-preview.jpg");
+  box-shadow: inset 0 0 0 2000px rgba(8, 0, 5, 0.603);
+  color: white;
+  text-align: center;
+}
+
+.footer-first label {
+  word-spacing: 2px;
+  font-size: 20px;
+  padding: 10px;
+  font-weight: bolder;
+}
+
+h1 {
+  color: white !important;
+}
+
+#firstCol {
+  border-right: 2px solid white;
+}
+
+.footer-second {
+  padding: 10px;
+  margin-top: 5%;
+}
+
+.footer-last {
+  padding: 10px;
+  margin-top: 5%;
+}
+
+.creditcard {
+  height: 40px;
+  width: 70px;
+  margin: 0 10px;
+  border-radius: 5px;
+  object-fit: fill;
+}
+#button-addon2 {
+  background-color: gray;
+  color: white;
+  font-weight: 700;
+}
+#button-addon2:hover {
+  background-color: black;
+  color: white;
+}
+footer .socialIcon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .socialIcon i {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  margin-right: 4%;
+}
+footer .socialIcon i:nth-of-type(1) {
+  background: #3c3c7c;
+}
+footer .socialIcon i:nth-of-type(2) {
+  background: #3ea4b9;
+}
+footer .socialIcon i:nth-of-type(3) {
+  background: #bc1a1a;
+}
+footer .socialIcon i:nth-of-type(4) {
+  background: #d08b36;
+}
