@@ -1,71 +1,68 @@
+.card-box {
+  width: 21rem;
+  padding: 0.9rem;
+  background-color: transparent;
+  background-color: black;
+  border-radius: 30px;
+  margin-left: 5rem;
+  margin-bottom: 2rem;
+  box-shadow: rgb(255, 251, 251) 0px 5px 15px;
+}
 
- .card-box{
-    width: 21rem;
-    padding: .9rem;
-   background-color: transparent;
-   background-color: black;
-   border-radius: 30px;
-   margin-left: 5rem;
-   margin-bottom: 2rem;
-   box-shadow: rgb(255, 251, 251) 0px 5px 15px;
-   
- }
- .card-box:hover{
-    /* background-image: url("https://media.zenfs.com/en/martha_stewart_living_393/0e298bca6952852966530dae2a17456e");
-    box-shadow: inset 0 0 0 2000px rgba(8, 0, 5, 0.616); */
-    box-shadow:  rgb(255, 123, 0) 0px 5px 15px;
-    color: cornsilk;
-    background-color:rgba(0, 0, 0, 0);
-    
- }
-.back{
-    padding: 1rem;
-    display: flex;
-    flex-wrap: wrap;
-    
+.card-box:hover {
+  box-shadow: rgb(255, 123, 0) 0px 5px 15px;
+  color: cornsilk;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.back {
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-    background-color: rgb(15, 15, 15);
-    padding: 3rem;
+  background-color: rgb(15, 15, 15);
+  padding: 3rem;
 }
- .image-card{
-    width: 19rem;
-    object-fit: contain;
-    height: 12rem;
-    border-bottom-right-radius: 100px 100px;
-    /* box-shadow: rgb(255, 251, 251) 0px 5px 15px; */
- 
-}
-.MAIN-LIST-COMPANY{
- 
-  margin-left: 35rem;
-  text-shadow: #FFC300;
-  color: #FFC300; 
-  /* border-color:5px solid #FFC300 !important; */
 
+.image-card {
+  width: 19rem;
+  object-fit: contain;
+  height: 12rem;
+  border-bottom-right-radius: 100px 100px;
 }
-.MAIN-LIST-COMPANY1{
+
+.MAIN-LIST-COMPANY {
+  margin-left: 35rem;
+  text-shadow: #ffc300;
+  color: #ffc300;
+}
+
+.MAIN-LIST-COMPANY1 {
   margin-left: 28rem;
   color: white;
 }
-.MAIN-LIST-COMPANY2{
+
+.MAIN-LIST-COMPANY2 {
   margin-left: 37rem;
   color: aqua;
 }
-.MAIN-LIST-boder{
 
+.MAIN-LIST-boder {
   margin-top: 1rem;
- 
 }
-.image-card:hover{
-    opacity: 0.8
 
+.image-card:hover {
+  opacity: 0.8;
 }
-.h3{
+
+.h3 {
   color: white;
 }
-.p{
-    color:#FFC300;
+
+.p {
+  color: #ffc300;
 }
+
 .button-28 {
   appearance: none;
   background-color: transparent;
@@ -75,7 +72,8 @@
   color: #fff6f6;
   cursor: pointer;
   display: inline-block;
-  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 16px;
   font-weight: 600;
   line-height: normal;
@@ -83,10 +81,10 @@
   height: 3rem;
   min-width: 0;
   outline: none;
-  padding: 6px ;
+  padding: 6px;
   text-align: center;
   text-decoration: none;
-  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
@@ -99,8 +97,8 @@
 }
 
 .button-28:hover {
-  color:  rgb(255, 123, 0) 0px 5px 15px;
-  background-color:  rgb(255, 123, 0) 0px 5px 15px;
+  color: rgb(255, 123, 0) 0px 5px 15px;
+  background-color: rgb(255, 123, 0) 0px 5px 15px;
   box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
   transform: translateY(-2px);
 }
@@ -109,26 +107,34 @@
   box-shadow: none;
   transform: translateY(0);
 }
-.bbb{
+
+.bbb {
   width: 10rem;
 }
-.button-div{
-    
-    display: flex;
-    justify-content: space-between;
+
+.button-div {
+  display: flex;
+  justify-content: space-between;
 }
+
 @media only screen and (max-width: 767px) {
   .card-box {
-    width: 100%;
+    width: calc(100% - 2rem); /* Adjusted width */
+    margin-left: 0;
+    margin-right: auto; /* Centered horizontally */
+  }
+
+  .MAIN-LIST-COMPANY,
+  .MAIN-LIST-COMPANY1,
+  .MAIN-LIST-COMPANY2 {
     margin-left: 0;
   }
-  .MAIN-LIST-COMPANY, .MAIN-LIST-COMPANY1, .MAIN-LIST-COMPANY2 {
-    margin-left: 0;
-  }
+
   .button-div {
     flex-direction: column;
     align-items: center;
   }
+
   .button-28 {
     width: 80%;
     margin-top: 1rem;
